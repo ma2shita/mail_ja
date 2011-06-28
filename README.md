@@ -42,8 +42,14 @@ Getting Start
 
 ### Install ###
 
-$ cd RAILS_ROOT
-$ rails plugin install git://github.com/ma2shita/mail_ja.git
+	$ cd RAILS_ROOT
+	$ rails plugin install http://github.com/ma2shita/mail_ja.git
+
+OR
+
+	$ cd RAILS_ROOT
+	$ git submodule add http://github.com/ma2shita/mail_ja.git vendor/plugins/mail_ja/
+
 
 ### Code ###
 
